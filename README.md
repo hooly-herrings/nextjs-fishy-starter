@@ -1,6 +1,6 @@
 # The Song of The Fish
 
-![herring](./public/hooly-herrings.png
+![herring](./public/hooly-herrings.png)
 
 > Hold your back for the rhythym attack
 > Coming down on the floor like a maniac
