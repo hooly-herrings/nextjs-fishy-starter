@@ -1,3 +1,4 @@
+import { Box, Container, Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -11,22 +12,34 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="fish">
-          <Image src="/fish.svg" alt="Fishy Fish" width={300} height={300} />
+        <div className="water">
+          <div className="fish">
+            <Image
+              src="/hooly-herrings-black.svg"
+              alt="Fishy Fish"
+              width={100}
+              height={75}
+            />
+          </div>
         </div>
+        <Container>
+          <Box>
+            <Heading as="h1">Heading 1</Heading>
+          </Box>
+        </Container>
       </main>
       <style jsx>{`
-        main {
-          height: 75vh;
+        .water {
+          height: 100vh;
           display: flex;
           align-items: center;
           justify-content: center;
         }
         .fish {
-          transition: transform 1.5s ease-in-out;
+          transition: all 1s ease-in-out;
         }
         .fish:hover {
-          transform: rotate(360deg);
+          transform: rotate(360deg) scale(4);
         }
       `}</style>
     </>
