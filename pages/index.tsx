@@ -1,4 +1,3 @@
-import { Box, Container, Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -22,11 +21,6 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <Container>
-          <Box>
-            <Heading as="h1">Heading 1</Heading>
-          </Box>
-        </Container>
       </main>
       <style jsx>{`
         .water {
