@@ -2913,6 +2913,11 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+shevyjs@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/shevyjs/-/shevyjs-2.1.0.tgz#c4889d23e7054543124fa07623a4da2e1098e944"
+  integrity sha512-hiisabQM39SFgrJAQWHgix8nzcCPPyrZu8vEXayJf/hOIW4IKSoiZ2hlsWYaUYiX+7k0+HUPNcaPbhxSfl1BCg==
+
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
