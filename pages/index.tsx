@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           },
         ]}
         title="Hooly Fishy Starter"
-        description="This example uses more of the available  SEO config options."
+        description="Hooly Fishy starter for NextJS based projects..."
         canonical="https://www.canonical.ie/"
         openGraph={{
           url: 'https://www.url.ie/a',
