@@ -39,3 +39,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 }
+
+export const HerringButton = Template.bind({})
+HerringButton.args = {
+  size: 'large',
+  label: 'This is just a test',
+}
