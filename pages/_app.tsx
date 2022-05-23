@@ -1,7 +1,8 @@
-import '../styles/global.scss'
+// @ts-nocheck
 import type { AppProps } from 'next/app'
 import { ChakraProvider } from '@chakra-ui/react'
 import { DefaultSeo } from 'next-seo'
+import '../styles/global.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
