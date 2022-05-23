@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
+import { Flex } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -46,7 +47,7 @@ const Home: NextPage = () => {
         }}
       />
       <main>
-        <div className="water">
+        <Flex alignItems="center" justifyContent="center" h="100vh">
           <div className="fish">
             <Image
               src="/hooly-herrings-black.svg"
@@ -55,15 +56,9 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-        </div>
+        </Flex>
       </main>
       <style jsx>{`
-        .water {
-          height: 100vh;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
         .fish {
           transition: all 1s ease-in-out;
         }
