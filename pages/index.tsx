@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
-import { Flex, Text } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -57,7 +57,6 @@ const Home: NextPage = () => {
             />
           </div>
         </Flex>
-        <Text>Dupa</Text>
       </main>
       <style jsx>{`
         .fish {
