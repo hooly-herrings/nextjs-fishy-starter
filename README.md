@@ -25,3 +25,7 @@ yarn husky install
 ```
 
 Take care and smell well...
+
+---
+
+Also added GitHub Dependabot for weekly package autoupdates.
