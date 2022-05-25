@@ -1,16 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
-import {
-  Text,
-  Flex,
-  FormControl,
-  FormLabel,
-  RadioGroup,
-  HStack,
-  FormHelperText,
-  Radio,
-} from '@chakra-ui/react'
+import { Text, Flex, Checkbox, Stack } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -70,20 +61,10 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <FormControl as="fieldset">
-            <FormLabel as="legend">Favorite Naruto Character</FormLabel>
-            <RadioGroup defaultValue="Itachi">
-              <HStack spacing="24px">
-                <Radio value="Sasuke">Sasuke</Radio>
-                <Radio value="Nagato">Nagato</Radio>
-                <Radio value="Itachi">Itachi</Radio>
-                <Radio value="Sage of the six Paths">
-                  Sage of the six Paths
-                </Radio>
-              </HStack>
-            </RadioGroup>
-            <FormHelperText>Select only if you're a fan.</FormHelperText>
-          </FormControl>
+          <Stack spacing={5} direction="row">
+            <Checkbox defaultChecked>Checkbox</Checkbox>
+            <Checkbox defaultChecked>Checkbox</Checkbox>
+          </Stack>
           <Text>dupa</Text>
         </Flex>
       </main>

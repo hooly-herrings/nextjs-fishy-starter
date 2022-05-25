@@ -1,10 +1,10 @@
-import { extendTheme, theme as base } from '@chakra-ui/react'
+import { extendTheme, theme } from '@chakra-ui/react'
 
-const theme = extendTheme({
+const starterTheme = extendTheme({
   // Typography
   fonts: {
-    heading: `${base.fonts?.heading}`,
-    body: `${base.fonts?.heading}`,
+    heading: `${theme.fonts?.heading}`,
+    body: `${theme.fonts?.heading}`,
   },
   fontSizes: {
     xs: '12px',
@@ -47,7 +47,16 @@ const theme = extendTheme({
         color: 'red',
       },
     },
+    Checkbox: {
+      baseStyle: {
+        control: {
+          _checked: {
+            bg: 'gray.500',
+          },
+        },
+      },
+    },
   },
 })
 
-export default theme
+export default starterTheme
