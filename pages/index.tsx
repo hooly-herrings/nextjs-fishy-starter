@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
-import { Text, Flex, Checkbox, Stack } from '@chakra-ui/react'
+import { Text, Flex, Radio, RadioGroup, Stack } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -61,10 +61,13 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <Stack spacing={5} direction="row">
-            <Checkbox defaultChecked>Checkbox</Checkbox>
-            <Checkbox defaultChecked>Checkbox</Checkbox>
-          </Stack>
+          <RadioGroup>
+            <Stack direction="row">
+              <Radio value="1">First</Radio>
+              <Radio value="2">Second</Radio>
+              <Radio value="3">Third</Radio>
+            </Stack>
+          </RadioGroup>
           <Text>dupa</Text>
         </Flex>
       </main>
