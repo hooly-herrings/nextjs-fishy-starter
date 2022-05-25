@@ -3,8 +3,8 @@ import { extendTheme, theme as base } from '@chakra-ui/react'
 const theme = extendTheme({
   // Typography
   fonts: {
-    heading: `"Noto Sans Display", ${base.fonts?.heading}`,
-    body: `"Noto Sans Display", ${base.fonts?.heading}`,
+    heading: `${base.fonts?.heading}`,
+    body: `${base.fonts?.heading}`,
   },
   fontSizes: {
     xs: '12px',
@@ -41,53 +41,10 @@ const theme = extendTheme({
     wider: '0.05em',
     widest: '0.1em',
   },
-
   components: {
-    Heading: {
-      baseStyle: {
-        color: 'headings',
-        fontSixe: '2xl',
-      },
-      sizes: {
-        '6xl': {
-          fontSize: '6xl',
-          lineHeight: 1.5,
-        },
-        '5xl': {
-          fontSize: '5xl',
-          lineHeight: 1.5,
-        },
-        '4xl': {
-          fontSize: '4xl',
-          lineHeight: 1.5,
-        },
-        '3xl': {
-          fontSize: '3xl',
-          lineHeight: 1.5,
-        },
-        '2xl': {
-          fontSize: '2xl',
-          lineHeight: 2,
-        },
-        xl: {
-          fontSize: 'xl',
-          lineHeight: 2,
-        },
-        lg: {
-          fontSize: 'lg',
-          lineHeight: 2,
-        },
-        md: { fontSize: 'md', lineHeight: 2 },
-        sm: { fontSize: 'sm', lineHeight: 2 },
-        xs: { fontSize: 'xs', lineHeight: 2 },
-      },
-    },
     Text: {
       baseStyle: {
-        color: 'ink',
-        fontSize: 'md',
-        fontWeight: 'normal',
-        lineHeight: 2,
+        color: 'red',
       },
     },
   },
