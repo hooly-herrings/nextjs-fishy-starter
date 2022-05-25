@@ -73,6 +73,15 @@ const starterTheme = extendTheme({
         },
       },
     },
+    Switch: {
+      baseStyle: {
+        track: {
+          _checked: {
+            bg: 'gray.500',
+          },
+        },
+      },
+    },
   },
 })
 

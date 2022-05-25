@@ -1,14 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
-import {
-  Text,
-  Flex,
-  RangeSlider,
-  RangeSliderTrack,
-  RangeSliderThumb,
-  RangeSliderFilledTrack,
-} from '@chakra-ui/react'
+import { Text, Flex, Switch } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -68,13 +61,7 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <RangeSlider aria-label={['min', 'max']} defaultValue={[10, 30]}>
-            <RangeSliderTrack>
-              <RangeSliderFilledTrack />
-            </RangeSliderTrack>
-            <RangeSliderThumb index={0} />
-            <RangeSliderThumb index={1} />
-          </RangeSlider>
+          <Switch />
           <Text>dupa</Text>
         </Flex>
       </main>
