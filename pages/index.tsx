@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Image from 'next/image'
-import { Text, Flex, Switch } from '@chakra-ui/react'
+import { Text, Flex, CircularProgress } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <Switch />
+          <CircularProgress value={40} />
           <Text>dupa</Text>
         </Flex>
       </main>
