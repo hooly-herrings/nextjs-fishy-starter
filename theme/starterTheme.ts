@@ -82,6 +82,11 @@ const starterTheme = extendTheme({
         },
       },
     },
+    Tabs: {
+      defaultProps: {
+        colorScheme: 'grey',
+      },
+    },
   },
 })
 
