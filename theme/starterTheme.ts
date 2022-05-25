@@ -50,9 +50,6 @@ const starterTheme = extendTheme({
     Checkbox: {
       baseStyle: {
         control: {
-          _focus: {
-            boxShadow: 'none', // outline style
-          },
           _checked: {
             bg: 'gray.400',
           },
@@ -62,13 +59,17 @@ const starterTheme = extendTheme({
     Radio: {
       baseStyle: {
         control: {
-          _focus: {
-            boxShadow: 'none', // outline style
-          },
           _checked: {
             bg: 'gray.400',
             borderColor: 'gray.400',
           },
+        },
+      },
+    },
+    Slider: {
+      baseStyle: {
+        filledTrack: {
+          bg: 'gray.500',
         },
       },
     },
