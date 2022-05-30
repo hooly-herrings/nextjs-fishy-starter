@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@chakra-ui/react'
+import { Text, Heading } from '@chakra-ui/react'
 import './button.css'
 
 interface ButtonProps {
@@ -48,6 +48,7 @@ export const Button = ({
       {...props}
     >
       <Text variant="deco">{`${label}dupa`}</Text>
+      <Heading size="3xl">hes</Heading>
     </button>
   )
 }

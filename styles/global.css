@@ -1,5 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+:root {
+  --allec--ts--space: var(--allec--ts-xs--space);
+  --allec--ts--h1-fs: var(--allec--ts-xs--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-xs--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-xs--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-xs--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-xs--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-xs--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-xs--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-xs--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-xs--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-xs--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-xs--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-xs--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-xs--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-xs--content-lh);
+}
+
+@media screen and (min-width: 300px) {
+:root {
+  --allec--ts--space: var(--allec--ts-xs--space);
+  --allec--ts--h1-fs: var(--allec--ts-xs--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-xs--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-xs--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-xs--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-xs--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-xs--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-xs--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-xs--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-xs--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-xs--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-xs--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-xs--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-xs--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-xs--content-lh);
+}
+}
+
+@media screen and (min-width: 500px) {
+:root {
+  --allec--ts--space: var(--allec--ts-sm--space);
+  --allec--ts--h1-fs: var(--allec--ts-sm--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-sm--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-sm--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-sm--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-sm--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-sm--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-sm--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-sm--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-sm--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-sm--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-sm--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-sm--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-sm--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-sm--content-lh);
+}
+}
+
+@media screen and (min-width: 780px) {
+:root {
+  --allec--ts--space: var(--allec--ts-md--space);
+  --allec--ts--h1-fs: var(--allec--ts-md--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-md--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-md--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-md--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-md--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-md--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-md--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-md--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-md--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-md--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-md--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-md--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-md--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-md--content-lh);
+}
+}
+
+@media screen and (min-width: 1280px) {
+:root {
+  --allec--ts--space: var(--allec--ts-lg--space);
+  --allec--ts--h1-fs: var(--allec--ts-lg--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-lg--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-lg--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-lg--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-lg--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-lg--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-lg--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-lg--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-lg--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-lg--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-lg--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-lg--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-lg--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-lg--content-lh);
+}
+}
+
+
+@media screen and (min-width: 1620px) {
+:root {
+  --allec--ts--space: var(--allec--ts-xl--space);
+  --allec--ts--h1-fs: var(--allec--ts-xl--h1-fs);
+  --allec--ts--h2-fs: var(--allec--ts-xl--h2-fs);
+  --allec--ts--h3-fs: var(--allec--ts-xl--h3-fs);
+  --allec--ts--h4-fs: var(--allec--ts-xl--h4-fs);
+  --allec--ts--h5-fs: var(--allec--ts-xl--h5-fs);
+  --allec--ts--h6-fs: var(--allec--ts-xl--h6-fs);
+  --allec--ts--content-fs: var(--allec--ts-xl--content-fs);
+  --allec--ts--h1-lh: var(--allec--ts-xl--h1-lh);
+  --allec--ts--h2-lh: var(--allec--ts-xl--h2-lh);
+  --allec--ts--h3-lh: var(--allec--ts-xl--h3-lh);
+  --allec--ts--h4-lh: var(--allec--ts-xl--h4-lh);
+  --allec--ts--h5-lh: var(--allec--ts-xl--h5-lh);
+  --allec--ts--h6-lh: var(--allec--ts-xl--h6-lh);
+  --allec--ts--content-lh: var(--allec--ts-xl--content-lh);
+}
+}
+
 html,
 body {
   padding: 0;
