@@ -1,7 +1,6 @@
 import React from 'react'
 
-import { Button } from './Button'
-import './header.css'
+import { CustomButton } from './Button'
 
 type User = {
   name: string
@@ -52,13 +51,12 @@ export const Header = ({
             <span className="welcome">
               Welcome, <b>{user.name}</b>!
             </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
+            <CustomButton size="small" onClick={onLogout} label="Log out" />
           </>
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button
-              primary
+            <CustomButton size="small" onClick={onLogin} label="Log in" />
+            <CustomButton
               size="small"
               onClick={onCreateAccount}
               label="Sign up"
