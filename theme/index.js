@@ -5,6 +5,7 @@ const theme = extendTheme({
   fonts: {
     heading: `"Noto Sans Display", ${base.fonts?.heading}`,
     body: `"Noto Sans Display", ${base.fonts?.heading}`,
+    deco: 'Bad Script',
   },
   fontSizes: {
     xs: '12px',
@@ -88,6 +89,11 @@ const theme = extendTheme({
         fontSize: 'md',
         fontWeight: 'normal',
         lineHeight: 2,
+      },
+      variants: {
+        deco: {
+          fontFamily: 'deco',
+        },
       },
     },
   },
