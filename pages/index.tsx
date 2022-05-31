@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import {
+  AllecBodyCopy,
   AllecCanon,
   AllecDoublePica,
   AllecGreatPrimer,
@@ -68,11 +69,12 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <AllecCanon>Header</AllecCanon>
-          <AllecGreatPrimer>Header</AllecGreatPrimer>
-          <AllecDoublePica>Header</AllecDoublePica>
-          <AllecParagon>Header</AllecParagon>
-          <AllecTrafalgar>Header</AllecTrafalgar>
+          <AllecCanon>Header H1</AllecCanon>
+          <AllecTrafalgar>Header H2</AllecTrafalgar>
+          <AllecParagon>Header H3</AllecParagon>
+          <AllecDoublePica>Header H4</AllecDoublePica>
+          <AllecGreatPrimer>Header H5</AllecGreatPrimer>
+          <AllecBodyCopy>Header H6</AllecBodyCopy>
         </Flex>
       </main>
       <style jsx>{`
