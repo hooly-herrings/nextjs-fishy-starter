@@ -1,6 +1,12 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
-import { AllecCanon } from '../components/typography'
+import {
+  AllecCanon,
+  AllecDoublePica,
+  AllecGreatPrimer,
+  AllecParagon,
+  AllecTrafalgar,
+} from '../components/typography'
 import { Flex } from '@chakra-ui/react'
 import Image from 'next/image'
 
@@ -63,6 +69,10 @@ const Home: NextPage = () => {
             />
           </div>
           <AllecCanon>Header</AllecCanon>
+          <AllecGreatPrimer>Header</AllecGreatPrimer>
+          <AllecDoublePica>Header</AllecDoublePica>
+          <AllecParagon>Header</AllecParagon>
+          <AllecTrafalgar>Header</AllecTrafalgar>
         </Flex>
       </main>
       <style jsx>{`
