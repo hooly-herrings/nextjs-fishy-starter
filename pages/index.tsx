@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import { AllecCanon } from '../components/typography'
+import { Flex } from '@chakra-ui/react'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -46,7 +48,22 @@ const Home: NextPage = () => {
         }}
       />
       <main>
-        <AllecCanon>Header</AllecCanon>
+        <Flex
+          alignItems="center"
+          direction="column"
+          justifyContent="center"
+          h="100vh"
+        >
+          <div className="fish">
+            <Image
+              src="/hooly-herrings-black.svg"
+              alt="Fishy Fish"
+              width={100}
+              height={75}
+            />
+          </div>
+          <AllecCanon>Header</AllecCanon>
+        </Flex>
       </main>
       <style jsx>{`
         .fish {
