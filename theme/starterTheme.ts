@@ -1,4 +1,4 @@
-import { extendTheme, theme } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
 import spacing from './partials/spacing'
 
 function responsive(
@@ -18,9 +18,8 @@ const starterTheme = extendTheme({
   space: spacing,
   // Typography
   fonts: {
-    heading: `${theme.fonts?.heading}`,
-    body: `${theme.fonts?.heading}`,
-    deco: 'Bad Script',
+    heading: 'Architects Daughter',
+    body: 'Architects Daughter',
   },
   fontSizes: {
     xs: '7px',

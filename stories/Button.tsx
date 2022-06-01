@@ -14,7 +14,8 @@ export const CustomButton = ({
 }: ButtonProps) => {
   return (
     <Button size={size} type="button" {...props}>
-      <Text variant="deco">{`${label} dupa`}</Text>
+      <Text>{`${label} dupa`}</Text>
+      dupa
     </Button>
   )
 }
