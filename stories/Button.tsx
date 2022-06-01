@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Button } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 
 interface ButtonProps {
   size?: 'small' | 'medium' | 'large'
@@ -14,8 +14,7 @@ export const CustomButton = ({
 }: ButtonProps) => {
   return (
     <Button size={size} type="button" {...props}>
-      <Text>{`${label} dupa`}</Text>
-      dupa
+      {label}
     </Button>
   )
 }

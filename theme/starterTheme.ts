@@ -1,5 +1,6 @@
 import { extendTheme } from '@chakra-ui/react'
 import spacing from './partials/spacing'
+import colors from './partials/colors'
 
 function responsive(
   size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl'
@@ -64,6 +65,7 @@ const starterTheme = extendTheme({
     wider: '0.05em',
     widest: '0.1em',
   },
+  colors,
   components: {
     Heading: {
       baseStyle: {
