@@ -3,19 +3,6 @@ import spacing from './partials/spacing'
 import colors from './partials/colors'
 import typography from './partials/typography'
 
-function responsive(
-  size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl'
-) {
-  return [
-    `${size}.0`,
-    `${size}.1`,
-    `${size}.2`,
-    `${size}.3`,
-    `${size}.4`,
-    `${size}.5`,
-  ]
-}
-
 const starterTheme = extendTheme({
   space: spacing,
   ...typography,
@@ -52,8 +39,8 @@ const starterTheme = extendTheme({
           lineHeight: 'var(--allec--ts--h6-lh)',
         },
         md: {
-          fontSize: responsive('md'),
-          lineHeight: responsive('md'),
+          fontSize: 'var(--allec--ts--content-fs)',
+          lineHeight: 'var(--allec--ts--content-lh)',
         },
         sm: {
           fontSize: 'sm',
