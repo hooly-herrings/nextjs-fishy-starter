@@ -47,6 +47,16 @@ export default function injectTypeScaleVarsToCSS(): void {
   if (typeof window !== 'undefined') {
     const root = document.documentElement
     const sizes: ['xl', 'lg', 'md', 'sm', 'xs'] = ['xl', 'lg', 'md', 'sm', 'xs']
+    const tags: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'content'] = [
+      'h1',
+      'h2',
+      'h3',
+      'h4',
+      'h5',
+      'h6',
+      'content',
+    ]
+
     sizes.forEach((size) => {
       root.style.setProperty(
         `--allec--ts-${size}--space`,
@@ -56,62 +66,16 @@ export default function injectTypeScaleVarsToCSS(): void {
         `--allec--ts-${size}--lhs`,
         ts[size].lineHeightSpacing()
       )
-      root.style.setProperty(
-        `--allec--ts-${size}--h1-fs`,
-        ts[size].h1.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h2-fs`,
-        ts[size].h2.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h3-fs`,
-        ts[size].h3.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h4-fs`,
-        ts[size].h4.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h5-fs`,
-        ts[size].h5.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h6-fs`,
-        ts[size].h6.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--content-fs`,
-        ts[size].content.fontSize || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h1-lh`,
-        `${ts[size].h1.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h2-lh`,
-        `${ts[size].h2.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h3-lh`,
-        `${ts[size].h3.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h4-lh`,
-        `${ts[size].h4.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h5-lh`,
-        `${ts[size].h5.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--h6-lh`,
-        `${ts[size].h6.lineHeight}` || null
-      )
-      root.style.setProperty(
-        `--allec--ts-${size}--content-lh`,
-        `${ts[size].content.lineHeight}` || null
-      )
+      tags.map((tag) => {
+        root.style.setProperty(
+          `--allec--ts-${size}--${tag}-fs`,
+          ts[size][tag].fontSize || null
+        )
+        root.style.setProperty(
+          `--allec--ts-${size}--${tag}-lh`,
+          `${ts[size][tag].lineHeight}` || null
+        )
+      })
     })
   }
 }
