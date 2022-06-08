@@ -2,11 +2,13 @@
 import type { AppProps } from 'next/app'
 import { ChakraProvider } from '@chakra-ui/react'
 import { DefaultSeo } from 'next-seo'
-import '../styles/global.scss'
+import theme from '../theme'
+import injectTypeScaleVarsToCSS from '../utils/injectTypeScaleVarsToCSS'
+import '../styles/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <DefaultSeo
         openGraph={{
           type: 'website',
@@ -20,6 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           cardType: 'summary_large_image',
         }}
       />
+      {injectTypeScaleVarsToCSS()}
       <Component {...pageProps} />
     </ChakraProvider>
   )
