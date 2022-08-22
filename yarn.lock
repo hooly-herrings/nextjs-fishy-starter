@@ -1319,6 +1319,20 @@
   dependencies:
     "@chakra-ui/utils" "2.0.1"
 
+"@chakra-ui/icon@3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-3.0.8.tgz#728476d657f1fc80c2ee0f39859703a0f3314b68"
+  integrity sha512-avd6mthBoG9R8cLLAROi/FItgk7wHy1YpeAXOrGdK/U/ECVWZev64RmI1UduKuVOLlSZldXWzFJmLdw6dAMG7A==
+  dependencies:
+    "@chakra-ui/utils" "2.0.8"
+
+"@chakra-ui/icons@^2.0.1":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.8.tgz#38659b322165566806a8e7a9f1e0d38fa15128f1"
+  integrity sha512-otX85/laLd9rC26EsaRK/QufXxclfK/JGw3vdxh+sEULFgwuC56tUzmXTwIt8GcDIx/LvZBkDgkXN0sn6Cqmog==
+  dependencies:
+    "@chakra-ui/icon" "3.0.8"
+
 "@chakra-ui/image@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-2.0.2.tgz#167a38d6c96a635ea5989f0e0e9eee27be005fe4"
@@ -1579,6 +1593,14 @@
     "@chakra-ui/utils" "2.0.1"
     "@chakra-ui/visually-hidden" "2.0.1"
 
+"@chakra-ui/storybook-addon@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/storybook-addon/-/storybook-addon-3.0.2.tgz#2036a7265c39e0324d0aba812f32435de50a7fe3"
+  integrity sha512-e5XjElyGFaupXsAMsJEmevowOnFRsnVHApsXpuRivrNZRAEpO8WGm7Ldsc/NnF8TQor8PRZl+dG49pTxOcbhfw==
+  dependencies:
+    "@chakra-ui/icons" "^2.0.1"
+    webpack-merge "^5.0.0"
+
 "@chakra-ui/styled-system@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@chakra-ui/styled-system/-/styled-system-2.1.1.tgz#5740564b5790f13412e81634a25eecdcc82c33e0"
@@ -1713,6 +1735,16 @@
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.1.tgz#90b93bb352f31f0e59dfdec7f3f1815466bd762b"
   integrity sha512-5yvIyzskfEi7nNWC0VR0T7KtOEZyy/5QwhbLZ/WD0zutV+SddLzmS7NnnnYvyuyT4SaNx/asKLerH2ucTz1pYA==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    framesync "5.3.0"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.8.tgz#b75e1cd22479eaa64410bd42849e638138971b20"
+  integrity sha512-5xSzOYSYbJEh+myY1mC6rOX+mzM/F2fiDqAw0zybHhfUab4zPHCO5RlgYVJ0L1DlGZUogVgRP6szH1xoBCcWQg==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
@@ -2708,7 +2740,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-
 "@storybook/client-api@6.5.6":
   version "6.5.6"
   resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-6.5.6.tgz#935026e682d41f8f9cd122dccd8a9ae3ebc3b613"
@@ -2735,7 +2766,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/client-logger@6.5.5", "@storybook/client-logger@^6.4.0 || >=6.5.0-0":
+"@storybook/client-logger@6.5.5":
   version "6.5.5"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.5.5.tgz#27e6f63ef2949956c7f1526f1f081451526cdf54"
   integrity sha512-vySt1uK0TdnhhO5HlX86Ib+fs94SJXoIRN++VIYCHbkWNJt7KROkwvc6nRDw6Te1QnTq07s35qFeiewdHVur8Q==
@@ -10695,10 +10726,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass@^1.52.1:
-  version "1.52.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.1.tgz#554693da808543031f9423911d62c60a1acf7889"
-  integrity sha512-fSzYTbr7z8oQnVJ3Acp9hV80dM1fkMN7mSD/25mpcct9F7FPBMOI8krEYALgU1aZoqGhQNhTPsuSmxjnIvAm4Q==
+sass@^1.54.5:
+  version "1.54.5"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.5.tgz#93708f5560784f6ff2eab8542ade021a4a947b3a"
+  integrity sha512-p7DTOzxkUPa/63FU0R3KApkRHwcVZYC0PLnLm5iyZACyp15qSi32x7zVUhRdABAATmkALqgGrjCJAcWvobmhHw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
