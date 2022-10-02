@@ -9,12 +9,7 @@
     "lint": "yarn eslint ."
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.1.2",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
     "@react-buddy/ide-toolbox": "^2.2.1",
-    "@react-buddy/palette-chakra-ui": "^2.1.1",
-    "framer-motion": "^7",
     "next": "^12.1.6",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
