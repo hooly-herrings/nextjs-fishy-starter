@@ -1,1 +1,3 @@
 dev
+cypress/*
+cypress.config.ts

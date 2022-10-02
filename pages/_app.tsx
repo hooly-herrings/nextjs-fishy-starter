@@ -1,10 +1,9 @@
-// @ts-nocheck
 import { DevSupport } from '@react-buddy/ide-toolbox'
-import type { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
+import type { AppProps } from 'next/app'
 import { ComponentPreviews, useInitial } from '../dev'
-import injectTypeScaleVarsToCSS from '../utils/injectTypeScaleVarsToCSS'
 import '../styles/global.css'
+import injectTypeScaleVarsToCSS from '../utils/injectTypeScaleVarsToCSS'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
