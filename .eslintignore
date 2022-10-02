@@ -1,3 +1,7 @@
+__mocks__
+__tests__
 dev
 cypress/*
 cypress.config.ts
+jest.config.js
+

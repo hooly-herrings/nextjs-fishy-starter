@@ -22,7 +22,8 @@
       "@/types/*": ["types/*"],
       "@/utils/*": ["utils/*"],
       "@/styles/*": ["styles/*"]
-    }
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
   "include": [
     "next-env.d.ts",
