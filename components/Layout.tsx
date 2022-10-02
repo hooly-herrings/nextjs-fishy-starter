@@ -6,7 +6,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <Fragment>
       <Header />
-      <main role="main">{children}</main>
+      <main className="container" role="main">
+        {children}
+      </main>
       <Footer />
     </Fragment>
   )

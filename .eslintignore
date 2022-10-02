@@ -4,4 +4,5 @@ dev
 cypress/*
 cypress.config.ts
 jest.config.js
+pollen.config.js
 

@@ -2,8 +2,9 @@ import { DevSupport } from '@react-buddy/ide-toolbox'
 import { DefaultSeo } from 'next-seo'
 import type { AppProps } from 'next/app'
 import { ComponentPreviews, useInitial } from '../dev'
+import '@picocss/pico'
+import '../styles/pollen.css'
 import '../styles/global.css'
-import injectTypeScaleVarsToCSS from '../utils/injectTypeScaleVarsToCSS'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -21,7 +22,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           cardType: 'summary_large_image',
         }}
       />
-      {injectTypeScaleVarsToCSS()}
       <DevSupport
         ComponentPreviews={ComponentPreviews}
         useInitialHook={useInitial}

@@ -9,11 +9,12 @@ const Home: NextPage = () => {
         <Image
           src="/hooly-herrings-black.svg"
           alt="Fishy Fish"
-          width={100}
-          height={75}
+          width={300}
+          height={175}
         />
         <h1>Home Page</h1>
         <p>Welcome to the home page!</p>
+        <button>Button</button>
       </div>
     </Layout>
   )
