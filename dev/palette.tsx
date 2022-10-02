@@ -1,4 +1,3 @@
-import ChakraPalette from '@react-buddy/palette-chakra-ui'
 import React from 'react'
 import { Category, Component, Variant, Palette } from '@react-buddy/ide-toolbox'
 
@@ -16,6 +15,5 @@ export const PaletteTree = () => (
         </Variant>
       </Component>
     </Category>
-    <ChakraPalette />
   </Palette>
 )
