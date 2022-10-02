@@ -1,14 +1,5 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
-import {
-  AllecBodyCopy,
-  AllecCanon,
-  AllecDoublePica,
-  AllecGreatPrimer,
-  AllecParagon,
-  AllecTrafalgar,
-} from '../components/typography'
-import { Flex } from '@chakra-ui/react'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -36,15 +27,6 @@ const Home: NextPage = () => {
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             },
-            {
-              url: 'https://www.example.ie/og-image-02.jpg',
-              width: 900,
-              height: 800,
-              alt: 'Og Image Alt Second',
-              type: 'image/jpeg',
-            },
-            { url: 'https://www.example.ie/og-image-03.jpg' },
-            { url: 'https://www.example.ie/og-image-04.jpg' },
           ],
           site_name: 'SiteName',
         }}
@@ -55,12 +37,7 @@ const Home: NextPage = () => {
         }}
       />
       <main>
-        <Flex
-          alignItems="center"
-          direction="column"
-          justifyContent="center"
-          h="100vh"
-        >
+        <div>
           <div className="fish">
             <Image
               src="/hooly-herrings-black.svg"
@@ -69,20 +46,15 @@ const Home: NextPage = () => {
               height={75}
             />
           </div>
-          <AllecCanon>Header H1</AllecCanon>
-          <AllecTrafalgar>Header H2</AllecTrafalgar>
-          <AllecParagon>Header H3</AllecParagon>
-          <AllecDoublePica>Header H4</AllecDoublePica>
-          <AllecGreatPrimer>Header H5</AllecGreatPrimer>
-          <AllecBodyCopy>Header H6</AllecBodyCopy>
-        </Flex>
+        </div>
       </main>
       <style jsx>{`
         .fish {
-          transition: all 1s ease-in-out;
-        }
-        .fish:hover {
-          transform: rotate(360deg) scale(4);
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       `}</style>
     </>
