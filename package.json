@@ -15,7 +15,7 @@
     "@chakra-ui/storybook-addon": "^4.0.11",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
-    "framer-motion": "^6",
+    "framer-motion": "^7",
     "next": "^12.1.6",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
