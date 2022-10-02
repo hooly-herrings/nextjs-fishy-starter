@@ -2435,6 +2435,18 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
+"@react-buddy/ide-toolbox@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@react-buddy/ide-toolbox/-/ide-toolbox-2.2.1.tgz#44d5977fbd9459d0221dce9f558f09032864eba9"
+  integrity sha512-oQWiiY0MJKeeHjW0wm6mO4ebarUdAW5z2g2p3gY5lF4ybDqm6CSU0oA9A6VFqGHLyG93w9W6rvRt/Ajd5cNNAQ==
+
+"@react-buddy/palette-chakra-ui@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@react-buddy/palette-chakra-ui/-/palette-chakra-ui-2.1.1.tgz#27e0d58365fbb424df3be0e6034b239c8bf19a6d"
+  integrity sha512-4g4tr4blVMrjRoIGk6m58VjD4sDTN0TCv3FEYcPaWYDli7n3ilm1EUv1UnDa87Q+LWm+UkkOHrmllMZhBF0zxA==
+  dependencies:
+    "@react-buddy/ide-toolbox" "^2.2.1"
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
