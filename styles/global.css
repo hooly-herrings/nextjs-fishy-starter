@@ -1,25 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body > header, body > footer {
+  text-align: center;
+  background-color: var(--color-grey-100);
+  padding: var(--size-4) 0;
+}
+
+main {
+  width: 90vw;
+  max-width: var(--width-xl);
+  margin: 0 auto;
+  padding: var(--size-4) 0;
+}
 
 body {
-  --primary: var(--color-grey-300);
-  --primary-hover: var(--color-grey-500);
+  font-family: 'Caveat', cursive;
+  font-size: var(--scale-fluid-2);
 }
 
-#__next > header {
-  text-align: center;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--weight-light);
 }
 
-#__next > footer {
-  text-align: center;
+h1 {
+  font-size: var(--scale-fluid-7)
+}
+h2 {
+  font-size: var(--scale-fluid-6)
+}
+h3 {
+  font-size: var(--scale-fluid-5)
 }
 
-.funky {
-  font-family: 'Architects Daughter',  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-button {
-  width: fit-content;
-  padding: calc(var(--spacing) / 2) var(--spacing);
-}
 
