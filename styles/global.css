@@ -5,7 +5,7 @@ body {
 
 body > header, body > footer {
   text-align: center;
-  background-color: var(--color-grey-100);
+  background-color: var(--color-grey-lightest);
   padding: var(--size-4) 0;
 }
 
@@ -17,16 +17,18 @@ main {
 }
 
 body {
-  font-family: 'Caveat', cursive;
-  font-size: var(--scale-fluid-2);
+  font-family: var(--font-handwritten);
+  font-size: var(--scale-0);
+  font-weight: var(--weight-light);
+  line-height: var(--line-md);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: var(--weight-light);
+  font-weight: var(--weight-medium);
 }
 
 h1 {
-  font-size: var(--scale-fluid-7)
+  font-size: var(--scale-5);
 }
 h2 {
   font-size: var(--scale-fluid-6)
