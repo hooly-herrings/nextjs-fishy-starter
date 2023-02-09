@@ -15,16 +15,16 @@
     "pollen": "pollen && mv pollen.css ./styles/pollen.css"
   },
   "dependencies": {
-    "@next/font": "^13.1.6",
-    "@react-buddy/ide-toolbox": "^2.2.1",
+    "@next/font": "^13.0.1",
+    "@react-buddy/ide-toolbox": "^2.3.1",
     "@types/testing-library__jest-dom": "^5.14.5",
-    "@typescript-eslint/parser": "^5.42.0",
+    "@typescript-eslint/parser": "^5.50.0",
     "next": "^13.0.1",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.0",
     "react-dom": "^18.2.0",
-    "react-native-svg": "^13.2.0",
+    "react-native-svg": "^13.7.0",
     "server-only": "^0.0.1",
     "shevyjs": "^2.1.0"
   },
