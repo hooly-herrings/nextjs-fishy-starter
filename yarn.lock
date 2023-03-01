@@ -638,10 +638,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@^13.1.6":
-  version "13.1.6"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.1.6.tgz#2bf99e3321ec9b4d65781c0d0ebff072e8752e1a"
-  integrity sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==
+"@next/font@^13.0.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.2.1.tgz#3723342727193116b904c798a1c054db02e07c22"
+  integrity sha512-4sergLt7xp9+mZuKME/xM4tLlHGTcmL7naCq0qCTcAlof6NnttshYgiLOdhSiy0NcI+/yM3BjvdEk++O96UzTg==
 
 "@next/swc-android-arm-eabi@13.0.1":
   version "13.0.1"
@@ -4089,10 +4089,10 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-pollen-css@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/pollen-css/-/pollen-css-4.6.1.tgz#d25dfbbc77b1af639cc551717a303da37bbe625a"
-  integrity sha512-w4doC2Nu2l16VyVhShcLqPOuIEuB/thGKxCwOZv9ef/kmoU4iwFMbdWJyjWMIp4A2+fRJ5E79nalpxMNvkEJvQ==
+pollen-css@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/pollen-css/-/pollen-css-4.6.2.tgz#654fa6cb2204342fb11d9a09f65c772fee736fec"
+  integrity sha512-uSkmTx51xXOFR+Jd6SOaKRBUyNXIjKQ50hB6+bjkDyWjvlOG8CVn3bzPJJM8eRmqKJTd13GUJaKCPbq1Zi11OA==
   dependencies:
     case "^1.6.3"
     commander "^9.4.0"
