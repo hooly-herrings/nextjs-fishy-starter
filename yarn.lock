@@ -638,10 +638,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@^13.1.6":
-  version "13.1.6"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.1.6.tgz#2bf99e3321ec9b4d65781c0d0ebff072e8752e1a"
-  integrity sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==
+"@next/font@^13.0.1":
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.3.2.tgz#0691750f426dd05d22debee1efa6ba509bb02e6c"
+  integrity sha512-gQICS3IZIbITqxqBVD0K8ng9ib0bxsOxVhTLeQyBlL773sNQoWIhJOyUHhYw1kSaOWP5BiFEmTvjNQNKwYuVKQ==
 
 "@next/swc-android-arm-eabi@13.0.1":
   version "13.0.1"
@@ -3800,9 +3800,10 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
 
-next-seo@^5.4.0:
-  version "5.5.0"
-  resolved "https://registry.npmjs.org/next-seo/-/next-seo-5.5.0.tgz"
+next-seo@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.0.0.tgz#4568dc61a44dbdf5fe5ff44156cd0ff8804889a2"
+  integrity sha512-jKKt1p1z4otMA28AyeoAONixVjdYmgFCWwpEFtu+DwRHQDllVX3RjtyXbuCQiUZEfQ9rFPBpAI90vDeLZlMBdg==
 
 next@^13.0.1:
   version "13.0.1"
